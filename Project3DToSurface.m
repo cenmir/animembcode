@@ -1,7 +1,7 @@
 function [SU,SF] = Project3DToSurface(surfh,H,F,U)
 %Project3DToSurface 
 %   [SU,FU] = Project3DToSurface(surfh,H,F,U)
-
+% hej
 
 nele = length([surfh.iel]);
 surfh(nele+1:length(surfh)) = [];
